@@ -1,0 +1,50 @@
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+
+// Colors
+// Colors borrowed from https://github.com/telegramdesktop/tdesktop/blob/dev/Telegram/Resources/day-blue.tdesktop-theme
+$color-primary: #3390ec;
+$color-links: #3390ec;
+$color-placeholders: #a2acb4;
+$color-text-green: #4fae4e;
+$color-green: #00c73e;
+$color-light-green: #eeffde;
+$color-error: #e53935;
+$color-warning: #fb8c00;
+$color-yellow: #fdd764;
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-dark-gray: #2e3939;
+$color-gray: #c4c9cc;
+$color-text-secondary: #707579;
+$color-text-secondary-apple: #8a8a90;
+$color-text-meta: #686c72;
+$color-text-meta-apple: #8c8c91;
+$color-borders: #dadce0;
+$color-dividers: #c8c6cc;
+$color-item-active: #ededed;
+$color-chat-hover: #f4f4f5;
+$color-chat-active: #3390ec;
+$color-selection: #3993fb;
+
+$color-user-1: #e17076;
+$color-user-2: #7bc862;
+$color-user-3: #E5CA77;
+$color-user-4: #65aadd;
+$color-user-5: #a695e7;
+$color-user-6: #ee7aae;
+$color-user-7: #6ec9cb;
+$color-user-8: #faa774;
+
+$color-message-reaction: #ebf3fd;
+$color-message-reaction-hover: #c5def9;
+$color-message-reaction-own: #cef0ba;
+$color-message-reaction-own-hover: #b5e0a4;
