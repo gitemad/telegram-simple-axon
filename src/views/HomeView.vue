@@ -1,22 +1,16 @@
 <template>
   <div>
-    <Avatar  :user="user"/>
+    <Sidebar />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Avatar from '@/components/Avatar.vue';
+import Sidebar from '@/components/Sidebar.vue';
 
 export default {
   components: {
-    Avatar
-  },
-  data() {
-    return {
-      user: {
-        name: 'Emad',
-      },
-    }
+    Sidebar
   },
 }
 
